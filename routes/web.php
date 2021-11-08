@@ -31,7 +31,6 @@ $router->group([
     $router->get('refresh', 'AuthController@refresh');
     $router->get('logout', 'AuthController@logout');
 
-
     $router->get('api', 'AnggotaController@index');
     $router->post('insert', 'AnggotaController@insert');
     $router->get('show/{id}', 'AnggotaController@show');
